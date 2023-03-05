@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <div class="my__form">
+    <form action="#" method="get" id="survey-form">
+        <div class="first__group"> 
+        <fieldset>
+            
+                <label id="name-label" for="name"><p>Name</p><br> <input placeholder="Enter your name" required id="name" name="name" type="text"> </label><br>
+                <label id="email-label" for="email"><p>Email</p><br> <input placeholder="Enter your Email" required id="email" name="email" type="email"></label><br>
+                <label id="number-label" for="number"><p> Age (optional)</p><br> <input placeholder="Age" min="13" max="99" id="number" name="number" type="number"></label>
+                <label for="dropdown"><span>Which option best describes your current role?</span>
+                <select class="sel__ect" id="dropdown">
+                    <option selected disabled value="0">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="not__say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                </label>
+        </fieldset></div> 
+
+        <div class="second__group">
+            <fieldset>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="yes"><input id="yes" value="yes" name="friend" type="radio"><span>Definitely</span></label><br>
+                <label for="maybe"><input id="maybe" value="maybe" name="friend" type="radio"><span>Maybe</span></label><br>
+                <label for="no"><input id="no" value="no" name="friend" type="radio"><span>Not sure</span></label>
+                <label for="favorite__feature"><p class="text">What is your favorite feature of freeCodeCamp?</p></label>
+                <select class="sel__ect" id="favorite__feature">
+                    <option selected disabled value="0">Select current role</option>
+                    <option value="option">Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open__source">Open Source</option>
+                </select>
+            </fieldset>
+        </div>
+        <div class="third__group">
+                <fieldset>
+                    <p>What would you like to see improved? (Check all that apply)</p>
+                    <label for="one">
+                        <input type="checkbox" name="front__and_projects" value="front__and_projects" id="one"><span>Front-end Projects</span>
+                    </label><br>
+                    <label for="two">
+                        <input type="checkbox" name="back__end" value="back__end" id="two"><span>Back-end Projects</span>
+                    </label><br>
+                    <label for="thee">
+                        <input type="checkbox" name="data" value="data" id="thee"><span>Data Visualization</span>
+                    </label><br>
+                    <label for="four">
+                        <input type="checkbox" name="challenges" value="challenges" id="four"><span>Challenges</span>
+                    </label><br>
+                    <label for="fife">
+                        <input type="checkbox" name="souece__community" value="souece__community" id="fife"><span>Open Source Community</span>
+                    </label><br>
+                    <label for="six">
+                        <input type="checkbox" name="gitter__helps" value="gitter__helps" id="six"><span>Gitter help rooms</span>
+                    </label><br>
+                    <label for="seven">
+                        <input type="checkbox" name="videos" value="videos" id="seven"> <span>Videos</span>
+                    </label><br>
+                    <label for="eight">
+                        <input type="checkbox" name="meetups" value="meetups" id="eight"><span>City Meetups</span>
+                    </label><br>
+                    <label for="nine">
+                        <input type="checkbox" name="wiki" value="wiki" id="nine"><span>Wiki</span>
+                    </label><br>
+                    <label for="ten">
+                        <input type="checkbox" name="forum" value="forum" id="ten"><span>Forum</span>
+                    </label><br>
+                    <label for="eleven">
+                        <input type="checkbox" name="additional__courses" value="additional__courses" id="eleven"><span>Additional Courses</span>
+                    </label><br>
+        
+                    <label for="comment"><p class="chek__b">Any comments or suggestions?</p><br>
+                        <textarea class="sel__ect" name="comment" id="comment" placeholder="Enter your comment here..."></textarea>
+                    </label>  
+
+                      <button id="submit" type="submit">Submit</button>
+                      
+                </fieldset>
+
+        </div>
+    
+        
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	background-color: rgb(204, 199, 199);
+	color:white;
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*первая часть*/
+
+header{
+	margin-top: 48px;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+}
+p{
+	font-size: 22px;
+}
+header p{
+	display: block;
+	margin: 10px 0 33px 0;
+}
+.my__form{
+	background-color: rgba(36, 36, 65,0.9);
+	font-weight: 50;
+	max-width: 717px;
+	min-width: 717px;
+	margin: 0 auto;
+	padding: 45px 0 0 43px;
+	border-radius: 5px;
+}
+
+.first__group input{
+	width: 92%;
+	height: 37px;
+	border-radius: 5px;
+	text-indent: 10px;
+	max-width: 92%;
+}
+.first__group fieldset p{
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+.first__group label{
+	font-size: 20px;
+	display: block;
+	margin-bottom: 15px;
+
+}
+
+
+.sel__ect{
+	width: 92%;
+	max-width: 92%;
+	height: 37px;
+	font-size: 15px;
+	text-indent: 10px;
+	border-radius: 5px;
+
+}
+
+.first__group span{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+/*вторая часть*/
+.second__group span{
+	display: inline-block;
+	font-size: 20px;
+	text-indent: 5px;
+
+}
+.second__group input{
+	margin-bottom:13px; ;
+}
+.second__group input:nth-child(1){
+	margin:13px 0 13px 0;
+}
+.second__group p{
+	margin-top: 20px;
+}
+.text{
+	margin-bottom: 12px;
+}
+.second__group .sel__ect{
+	margin-bottom: 20px;
+}
+
+/* третья часть */
+.third__group label{
+	display: inline-block;
+	font-size: 20px;
+	margin: 8px 0 8px 0;
+
+}
+.third__group span{
+	display: inline-block;
+	text-indent: 10px;
+}
+.chek__b{
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.third__group label:last-of-type{
+	display: block;
+}
+
+.third__group textarea{
+	height: 70px;
+	padding: 7px 0 0 0px;
+	margin-bottom: 30px;
+}
+.third__group button{
+	height: 37px;
+	width: 92%;
+	max-width: 92%;
+	background-color: rgb(49, 177, 49);
+	margin-bottom: 70px;
+	box-shadow: 2px 2px 5px rgb(49, 177, 49);
+	border-radius: 4px;
+}
+.third__group button:hover{
+	background-color: rgb(127, 214, 39);
+	box-shadow: 1px 1px 5px rgb(127, 214, 39);;
+}
+.third__group button:active{
+	background-color: rgb(29, 231, 147);
+
+}
